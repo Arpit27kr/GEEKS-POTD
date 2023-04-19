@@ -25,6 +25,7 @@ class GFG{
 
 
 
+
 //User function Template for Java
 class Solution 
 { 
@@ -32,8 +33,8 @@ class Solution
     boolean wifiRange(int N, String S, int X) 
     { 
           int zero=0,one=0;
-        for(int in=0;in<N;in++){
-            if(S.charAt(in)=='1'){
+        for(int i=0;i<N;i++){
+            if(S.charAt(i)=='1'){
                 if(zero!=0){
                     if(one==0 && zero>X)return false;
                     else if(zero>X*2)return false;
