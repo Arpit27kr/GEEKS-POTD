@@ -30,6 +30,7 @@ public class GFG
 
 
 
+
 class Solution
 {
     public long[] smallerSum(int n,int arr[])
