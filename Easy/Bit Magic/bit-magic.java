@@ -56,6 +56,7 @@ class GFG {
 
 
 
+
 class Solution {
     public static int bitMagic(int n, int[] arr) {
         // code here
