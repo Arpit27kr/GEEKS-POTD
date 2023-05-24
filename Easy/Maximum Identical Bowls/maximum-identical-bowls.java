@@ -58,6 +58,7 @@ class GFG {
 class Solution {
     public static int getMaximum(int N, int[] arr) {
         // code here
+        
         long total=0;
         for(int i=0;i<N;i++){
             total+=arr[i];
@@ -70,7 +71,7 @@ class Solution {
             }
         }
         return p;
-    
     }
+    
 }
         
